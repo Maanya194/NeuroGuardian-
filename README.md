@@ -14,13 +14,13 @@ NeuroGuardian solves this by using EEG brainwave activity to understand a driver
 
 ***Key Features:***
 
-✔️ Real-time EEG signal acquisition using a MindWave/EEG sensor
-✔️ Arduino-based signal preprocessing and Bluetooth communication
-✔️ Noise filtering (Fourier + Bandpass Filters)
-✔️ Feature extraction for Alpha, Beta, Theta brainwave bands
-✔️ Machine learning classification (Alert vs Fatigued vs Overloaded)
-✔️ UI dashboard for visualizing driver state
-✔️ Real-time alert mechanism (buzzer / LED / notification)
+✔️ Real-time EEG signal acquisition using a MindWave/EEG sensor<br>
+✔️ Arduino-based signal preprocessing and Bluetooth communication<br>
+✔️ Noise filtering (Fourier + Bandpass Filters)<br>
+✔️ Feature extraction for Alpha, Beta, Theta brainwave bands<br>
+✔️ Machine learning classification (Alert vs Fatigued vs Overloaded)<br>
+✔️ UI dashboard for visualizing driver state<br>
+✔️ Real-time alert mechanism (buzzer / LED / notification)<br>
 ✔️ Data logging for long-term behavior monitoring
 
 
@@ -60,31 +60,32 @@ Cloud database (optional: Firebase / MongoDB),
 
 **1. Preprocessing**
 
-Bandpass filter (0.5–60 Hz)
-Notch filter to remove 50/60 Hz noise
+Bandpass filter (0.5–60 Hz)<br>
+Notch filter to remove 50/60 Hz noise<br>
 Smoothing
 
 **2. Feature Extraction**
 
-Power Spectral Density (PSD)
-Alpha waves → relaxation
-Beta waves → alert mental activity
+Power Spectral Density (PSD)<br>
+Alpha waves → relaxation<br>
+Beta waves → alert mental activity<br>
 Theta waves → drowsiness
 
 **3. Classification**
 
-Trained ML models tested:
-SVM
-Random Forest
-Logistic Regression
+Trained ML models tested:<br>
+
+SVM<br>
+Random Forest<br>
+Logistic Regression<br>
 
 Final chosen model: Random Forest (best accuracy/performance for this dataset)
 
 
 ***Results:***
 
-Accuracy achieved: 85–92% depending on model
-Stable classification during real-time testing
+Accuracy achieved: 85–92% depending on model<br>
+Stable classification during real-time testing<br>
 System successfully triggered alerts during fatigue simulation
 
 
