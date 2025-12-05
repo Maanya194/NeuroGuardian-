@@ -26,23 +26,23 @@ NeuroGuardian solves this by using EEG brainwave activity to understand a driver
 
 ***Hardware Components:***
 
-EEG MindWave / Brainwave sensor
-Arduino Uno / Nano
-HC-05 / HC-06 Bluetooth Module
-Buzzer + LED Indicators
+EEG MindWave / Brainwave sensor,
+Arduino Uno / Nano,
+HC-05 / HC-06 Bluetooth Module,
+Buzzer + LED Indicators,
 Laptop/PC for ML Processing
 
 
 ***Software & ML Components:***
 
-Python
-NumPy, Pandas
-SciPy for signal filtering
-Matplotlib for visualization
-Scikit-learn / TensorFlow classifier
-Arduino IDE
-Serial/Bluetooth communication
-Cloud database (optional: Firebase / MongoDB)
+Python,
+NumPy, Pandas,
+SciPy for signal filtering,
+Matplotlib for visualization,
+Scikit-learn / TensorFlow classifier,
+Arduino IDE,
+Serial/Bluetooth communication,
+Cloud database (optional: Firebase / MongoDB),
 
 
 ***Data Flow (End-to-End):***
